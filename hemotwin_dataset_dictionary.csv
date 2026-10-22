@@ -1,0 +1,12 @@
+column,meaning,role
+temperature_C,Simulated external bag temperature,feature
+core_temperature_est_C,Estimated internal/core temperature,feature
+accel_x_g/accel_y_g/accel_z_g,Simulated MPU6050 acceleration axes,feature
+gyro_x_dps/gyro_y_dps/gyro_z_dps,Simulated MPU6050 gyroscope axes,feature
+shock_count_1h,Shock events in previous one hour,feature
+cumulative_thermal_exposure,Accumulated thermal stress,feature
+cumulative_motion_exposure,Accumulated motion exposure,feature
+degradation_index,Synthetic physics-inspired degradation target/state,target/state
+health_score,Synthetic 0–100 stability score,target/state
+remaining_safe_time_hours,Synthetic remaining safe-time target,target
+risk_level,Synthetic categorical risk label,target
